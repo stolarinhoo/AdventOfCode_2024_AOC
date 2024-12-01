@@ -49,8 +49,8 @@ public class Day01
         foreach (var line in lines)
         {
             var values = line.Split("   ");
-            int occurence = counter.ContainsKey(values[0]) ? counter[values[0]] : 0;
-            result += int.Parse(values[0]) * occurence;
+            int occurrences = counter.ContainsKey(values[0]) ? counter[values[0]] : 0;
+            result += int.Parse(values[0]) * occurrences;
         }
 
         Console.WriteLine(result);
