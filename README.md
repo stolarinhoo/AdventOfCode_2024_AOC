@@ -4,7 +4,7 @@
 
 | Day | Part 1 ⭐ | Part 2 ⭐ | Details         |
 |-----|---------|----------|-----------------|
-| 01  | ⭐        | ⭐        | [Solution](./Day01.cs) |
+| 01  | ⭐        | ⭐        | [Solution](AdventureOdCode_2024_AOC/Day01.cs) |
 | 02  |         |          |                 |
 | 03  |         |          |                 |
 | 04  |         |          |                 |
