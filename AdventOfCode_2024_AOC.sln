@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureOdCode_2024_AOC", "AdventureOdCode_2024_AOC\AdventureOdCode_2024_AOC.csproj", "{428B6AA3-8DE5-452D-99B1-2D0B35F8E6E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{428B6AA3-8DE5-452D-99B1-2D0B35F8E6E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{428B6AA3-8DE5-452D-99B1-2D0B35F8E6E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{428B6AA3-8DE5-452D-99B1-2D0B35F8E6E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{428B6AA3-8DE5-452D-99B1-2D0B35F8E6E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
