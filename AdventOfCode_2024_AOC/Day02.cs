@@ -1,4 +1,4 @@
-namespace AdventOdCode_2024_AOC;
+namespace AdventOfCode_2024_AOC;
 
 public class Day02
 {
