@@ -2,14 +2,14 @@
 
 ## 🗓️ Calendar Progress
 
-| Day | Part 1 ⭐ | Part 2 ⭐ | Details         |
-|-----|---------|----------|-----------------|
+| Day | Part 1 ⭐ | Part 2 ⭐ | Details                                       |
+|-----|---------|----------|-----------------------------------------------|
 | 01  | ⭐        | ⭐        | [Solution](AdventureOdCode_2024_AOC/Day01.cs) |
-| 02  |         |          |                 |
-| 03  |         |          |                 |
-| 04  |         |          |                 |
-| 05  |         |          |                 |
-| ... |         |          |                 |
-| 25  |         |          |                 |
+| 02  |   ⭐      |     ⭐     | [Solution](AdventureOdCode_2024_AOC/Day02.cs) |
+| 03  |         |          |                                               |
+| 04  |         |          |                                               |
+| 05  |         |          |                                               |
+| ... |         |          |                                               |
+| 25  |         |          |                                               |
 
-> ⭐: Solved | ❌: Failed or Not Attempted Yet
+> ⭐: Solved | ❌: Not Solved, Skipped or Not Attempted Yet
