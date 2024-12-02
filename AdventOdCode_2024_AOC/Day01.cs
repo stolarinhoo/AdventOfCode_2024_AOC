@@ -1,4 +1,4 @@
-namespace AdventureOdCode_2024_AOC;
+namespace AdventOdCode_2024_AOC;
 
 public class Day01
 {
