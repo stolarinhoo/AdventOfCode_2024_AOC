@@ -5,8 +5,8 @@
 | Day | Part 1 ⭐ | Part 2 ⭐ | Details                                    |
 |-----|---------|----------|--------------------------------------------|
 | 01  | ⭐        | ⭐        | [Solution](AdventOfCode_2024_AOC/Day01.cs) |
-| 02  |   ⭐      |     ⭐     | [Solution](AdventOfCode_2024_AOC/Day02.cs) |
-| 03  |         |          |                                            |
+| 02  |   ⭐      |     ⭐    | [Solution](AdventOfCode_2024_AOC/Day02.cs) |
+| 03  |   ⭐      |  ⭐       | [Solution](AdventOfCode_2024_AOC/Day03.cs) |
 | 04  |         |          |                                            |
 | 05  |         |          |                                            |
 | ... |         |          |                                            |
