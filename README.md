@@ -7,8 +7,12 @@
 | 01  | ⭐        | ⭐        | [Solution](AdventOfCode_2024_AOC/Day01.cs) |
 | 02  |   ⭐      |     ⭐    | [Solution](AdventOfCode_2024_AOC/Day02.cs) |
 | 03  |   ⭐      |  ⭐       | [Solution](AdventOfCode_2024_AOC/Day03.cs) |
-| 04  |         |          |                                            |
+| 04  |    ⭐     |    ⭐      | [Solution](AdventOfCode_2024_AOC/Day04.cs) |
 | 05  |         |          |                                            |
+| 06  |         |          |                                            |
+| 07  |         |          |                                            |
+| 08  |         |          |                                            |
+| 09  |         |          |                                            |
 | ... |         |          |                                            |
 | 25  |         |          |                                            |
 
