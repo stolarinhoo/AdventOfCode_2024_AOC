@@ -9,10 +9,16 @@
 | 03  |   ⭐      |  ⭐       | [Solution](AdventOfCode_2024_AOC/Day03.cs) |
 | 04  |    ⭐     |    ⭐      | [Solution](AdventOfCode_2024_AOC/Day04.cs) |
 | 05  |    ⭐     |    ⭐      | [Solution](AdventOfCode_2024_AOC/Day05.cs) |
-| 06  |         |          |                                            |
+| 06  |    ⭐     | ⭐         | [Solution](AdventOfCode_2024_AOC/Day06.cs) |
 | 07  |         |          |                                            |
 | 08  |         |          |                                            |
 | 09  |         |          |                                            |
+| 10  |         |          |                                            |
+| 11  |         |          |                                            |
+| 12  |         |          |                                            |
+| 13  |         |          |                                            |
+| 14  |         |          |                                            |
+| 15  |         |          |                                            |
 | ... |         |          |                                            |
 | 25  |         |          |                                            |
 
