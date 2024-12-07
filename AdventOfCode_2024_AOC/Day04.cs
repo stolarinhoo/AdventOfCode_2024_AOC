@@ -31,7 +31,7 @@ public class Day04
                 {
                     foreach (var dir in directions)
                     {
-                        DFS(row, col, 'X', dir);
+                        Backtrack(row, col, 'X', dir);
                     }
                 }
             }
@@ -39,7 +39,7 @@ public class Day04
 
         Console.WriteLine(xmas);
         
-        void DFS(int row, int col, char next, (int, int) direction)
+        void Backtrack(int row, int col, char next, (int, int) direction)
         {
             if (row < 0 || row >= rows || col < 0 || col >= cols || matrix[row][col] != next)
             {
@@ -54,7 +54,7 @@ public class Day04
             }
             next = dict.ContainsKey(current) ? dict[current] : 'X';
 
-            DFS(row + direction.Item1, col + direction.Item2, next, direction);
+            Backtrack(row + direction.Item1, col + direction.Item2, next, direction);
         }
     }
 
