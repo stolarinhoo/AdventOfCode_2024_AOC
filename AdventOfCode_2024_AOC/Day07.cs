@@ -23,11 +23,7 @@ public class Day07
         {
             if (index == numbers.Count)
             {
-                if (value == target)
-                {
-                    return true;
-                }
-                return false;
+                return value == target;
             }
             
             return (Backtrack(numbers, target, index + 1, value * numbers[index]) ||
@@ -54,12 +50,7 @@ public class Day07
         {
             if (index == numbers.Count)
             {
-                if (value == target)
-                {
-                    return true;
-                }
-
-                return false;
+                return value == target;
             }
 
             return (Backtrack(numbers, target, index + 1, value * numbers[index]) ||
