@@ -10,7 +10,7 @@
 | 04  |    ⭐     |    ⭐      | [Solution](AdventOfCode_2024_AOC/Day04.cs) |
 | 05  |    ⭐     |    ⭐      | [Solution](AdventOfCode_2024_AOC/Day05.cs) |
 | 06  |    ⭐     | ⭐         | [Solution](AdventOfCode_2024_AOC/Day06.cs) |
-| 07  |         |          |                                            |
+| 07  |     ⭐    |    ⭐      | [Solution](AdventOfCode_2024_AOC/Day07.cs) |
 | 08  |         |          |                                            |
 | 09  |         |          |                                            |
 | 10  |         |          |                                            |
