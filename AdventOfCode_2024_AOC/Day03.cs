@@ -4,7 +4,7 @@ namespace AdventOfCode_2024_AOC;
 
 public class Day03
 {
-    private readonly static string Filepath = Directory.GetCurrentDirectory() + @"\input_03.txt";
+    private static readonly string Filepath = Directory.GetCurrentDirectory() + @"\input_03.txt";
     
     public static void Solution_01()
     {
