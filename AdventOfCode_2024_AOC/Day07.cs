@@ -3,67 +3,68 @@ namespace AdventOfCode_2024_AOC;
 public class Day07
 {
     private static readonly string Filepath = Directory.GetCurrentDirectory() + @"\input_07.txt";
-
+    
     public static void Solution_01()
     {
+        long result = 0;
         var lines = PrepareData();
-        var targets = new HashSet<long>();
 
         foreach (var l in lines)
         {
-            Backtrack(l.numbers, l.target, 0, 1);
+            if (Backtrack(l.numbers, l.target, 0, 0))
+            {
+                result += l.target;
+            }
         }
-        
-        var result = targets.Sum();
+
         Console.WriteLine(result);
         
-        
-        void Backtrack(List<long> numbers, long target, int index, long value)
+        bool Backtrack(List<long> numbers, long target, int index, long value)
         {
-            if (value == target)
+            if (index == numbers.Count)
             {
-                targets.Add(target);
-                return;
-            }
-            if (value > target || index >= numbers.Count)
-            {
-                return;
+                if (value == target)
+                {
+                    return true;
+                }
+                return false;
             }
             
-            Backtrack(numbers, target, index + 1, value * numbers[index]);
-            Backtrack(numbers, target, index + 1, value + numbers[index]);
+            return (Backtrack(numbers, target, index + 1, value * numbers[index]) ||
+            Backtrack(numbers, target, index + 1, value + numbers[index]));
         }
     }
     
     public static void Solution_02()
     {
+        long result = 0;
         var lines = PrepareData();
-        var targets = new HashSet<long>();
 
         foreach (var l in lines)
         {
-            Backtrack(l.numbers, l.target, 0, 1);
+            if (Backtrack(l.numbers, l.target, 0, 0))
+            {
+                result += l.target;
+            }
         }
         
-        var result = targets.Sum();
         Console.WriteLine(result);
 
-        
-        void Backtrack(List<long> numbers, long target, int index, long value)
+        bool Backtrack(List<long> numbers, long target, int index, long value)
         {
-            if (value == target)
+            if (index == numbers.Count)
             {
-                targets.Add(target);
-                return;
+                if (value == target)
+                {
+                    return true;
+                }
+
+                return false;
             }
-            if (value > target || index >= numbers.Count)
-            {
-                return;
-            }
-            
-            Backtrack(numbers, target, index + 1, value * numbers[index]);
-            Backtrack(numbers, target, index + 1, value + numbers[index]);
-            Backtrack(numbers, target, index + 1, long.Parse(value.ToString() + numbers[index].ToString()));
+
+            return (Backtrack(numbers, target, index + 1, value * numbers[index]) ||
+                    Backtrack(numbers, target, index + 1, value + numbers[index]) ||
+                    Backtrack(numbers, target, index + 1, long.Parse(value.ToString() + numbers[index].ToString())));
         }
     }
     
