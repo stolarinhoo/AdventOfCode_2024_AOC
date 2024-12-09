@@ -1,6 +1,3 @@
-using System.Runtime.InteropServices;
-using System.Text;
-
 namespace AdventOfCode_2024_AOC;
 
 public class Day09
