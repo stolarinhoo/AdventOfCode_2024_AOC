@@ -16,7 +16,7 @@
 | 10  |    ⭐     |     ⭐     | [Solution](AdventOfCode_2024_AOC/Day10.cs) |
 | 11  |    ⭐     |     ⭐     | [Solution](AdventOfCode_2024_AOC/Day11.cs) |
 | 12  |     ⭐    |   ⭐       | [Solution](AdventOfCode_2024_AOC/Day12.cs) |
-| 13  |         |          |                                            |
+| 13  |     ⭐    |    ⭐      | [Solution](AdventOfCode_2024_AOC/Day13.cs) |
 | 14  |         |          |                                            |
 | 15  |         |          |                                            |
 | ... |         |          |                                            |
