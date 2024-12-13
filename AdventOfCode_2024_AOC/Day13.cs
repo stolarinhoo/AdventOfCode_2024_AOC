@@ -37,13 +37,13 @@ public class Day13
     {
         var aCost = 3; var bCost = 1;
         
-        long x = (game.buttonA.x * game.prize.y - game.buttonA.y * game.prize.x) /
+        long a = (game.buttonA.x * game.prize.y - game.buttonA.y * game.prize.x) /
                  (game.buttonA.x * game.buttonB.y - game.buttonA.y * game.buttonB.x);
-        long y = (game.prize.x - game.buttonB.x * x) / game.buttonA.x;
+        long b = (game.prize.x - game.buttonB.x * a) / game.buttonA.x;
     
-        if ((y * game.buttonA.x + x * game.buttonB.x) == game.prize.x && (y * game.buttonA.y + x * game.buttonB.y) == game.prize.y)
+        if ((b * game.buttonA.x + a * game.buttonB.x) == game.prize.x && (b * game.buttonA.y + a * game.buttonB.y) == game.prize.y)
         {
-            return (y * aCost) + x;
+            return (b * aCost) + a;
         }
 
         return 0;
@@ -72,11 +72,7 @@ public class Day13
             {
                 var nums = Regex.Matches(line, pattern.Replace(@"\+", @"\="));
                 game.prize = (long.Parse(nums[0].ToString()) + add, long.Parse(nums[1].ToString()) + add);
-            }
-            else
-            {
                 games.Add(game);
-                game = ((0, 0), (0, 0), (0, 0));
             }
         }
     
